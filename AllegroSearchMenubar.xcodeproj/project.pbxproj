@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35D623011876499D00DAA919 /* AllegroApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D623001876499D00DAA919 /* AllegroApi.m */; };
+		35D623611876EDC800DAA919 /* libPods-TouchXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D6235C1876ED5D00DAA919 /* libPods-TouchXML.a */; };
+		35D62365187779DB00DAA919 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D62364187779DB00DAA919 /* Product.m */; };
+		35D6237318783E0C00DAA919 /* AllegroSearchMenubar-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35D6237218783E0C00DAA919 /* AllegroSearchMenubar-Info.plist */; };
+		DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4F7C0813C30F9F00825C6E /* Cocoa.framework */; };
+		DD4F7C1513C30F9F00825C6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1413C30F9F00825C6E /* main.m */; };
+		DD4F7C1C13C30F9F00825C6E /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1B13C30F9F00825C6E /* ApplicationDelegate.m */; };
+		DD4F7C1F13C30F9F00825C6E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C1D13C30F9F00825C6E /* MainMenu.xib */; };
+		DD4F7C3813C317A500825C6E /* MenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C3713C317A500825C6E /* MenubarController.m */; };
+		DD4F7C3C13C3180800825C6E /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C3B13C3180800825C6E /* StatusItemView.m */; };
+		DD4F7C3F13C318D600825C6E /* PanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C3E13C318D600825C6E /* PanelController.m */; };
+		DD4F7C4113C31B4A00825C6E /* Panel.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C4013C31B4A00825C6E /* Panel.xib */; };
+		DD4F7C4413C31BD200825C6E /* Panel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C4313C31BD200825C6E /* Panel.m */; };
+		DD4F7C4713C3208500825C6E /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C4613C3208500825C6E /* BackgroundView.m */; };
+		DD4F7C4B13C322FA00825C6E /* Status.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C4913C322FA00825C6E /* Status.png */; };
+		DD4F7C4C13C322FA00825C6E /* StatusHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */; };
+		DDF4EFAC16C80A510044D141 /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF4EFAB16C80A510044D141 /* Status@2x.png */; };
+		DDF4EFAE16C80AD30044D141 /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35D623591876ED5D00DAA919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35D623341876ED5D00DAA919 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52C70616A27E4A63BFEADF0F;
+			remoteInfo = Pods;
+		};
+		35D6235B1876ED5D00DAA919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35D623341876ED5D00DAA919 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F1D332C58D974D3BABFDCD53;
+			remoteInfo = "Pods-TouchXML";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35D622FF1876499D00DAA919 /* AllegroApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllegroApi.h; sourceTree = "<group>"; };
+		35D623001876499D00DAA919 /* AllegroApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllegroApi.m; sourceTree = "<group>"; };
+		35D6230B1876ED5D00DAA919 /* CTidy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
+		35D6230C1876ED5D00DAA919 /* CXHTMLDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXHTMLDocument.h; sourceTree = "<group>"; };
+		35D6230D1876ED5D00DAA919 /* CXMLDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		35D6230E1876ED5D00DAA919 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		35D6230F1876ED5D00DAA919 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		35D623101876ED5D00DAA919 /* CXMLElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		35D623111876ED5D00DAA919 /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLElement_CreationExtensions.h; sourceTree = "<group>"; };
+		35D623121876ED5D00DAA919 /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		35D623131876ED5D00DAA919 /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLNamespaceNode.h; sourceTree = "<group>"; };
+		35D623141876ED5D00DAA919 /* CXMLNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		35D623151876ED5D00DAA919 /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		35D623161876ED5D00DAA919 /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		35D623171876ED5D00DAA919 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		35D623181876ED5D00DAA919 /* TouchXML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		35D6231B1876ED5D00DAA919 /* CTidy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
+		35D6231C1876ED5D00DAA919 /* CXHTMLDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXHTMLDocument.h; sourceTree = "<group>"; };
+		35D6231D1876ED5D00DAA919 /* CXMLDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		35D6231E1876ED5D00DAA919 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		35D6231F1876ED5D00DAA919 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		35D623201876ED5D00DAA919 /* CXMLElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		35D623211876ED5D00DAA919 /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLElement_CreationExtensions.h; sourceTree = "<group>"; };
+		35D623221876ED5D00DAA919 /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		35D623231876ED5D00DAA919 /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLNamespaceNode.h; sourceTree = "<group>"; };
+		35D623241876ED5D00DAA919 /* CXMLNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		35D623251876ED5D00DAA919 /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		35D623261876ED5D00DAA919 /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		35D623271876ED5D00DAA919 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		35D623281876ED5D00DAA919 /* TouchXML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		35D623291876ED5D00DAA919 /* Manifest.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		35D6232A1876ED5D00DAA919 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35D6232B1876ED5D00DAA919 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		35D6232C1876ED5D00DAA919 /* Pods-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		35D6232D1876ED5D00DAA919 /* Pods-environment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		35D6232E1876ED5D00DAA919 /* Pods-resources.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		35D6232F1876ED5D00DAA919 /* Pods-TouchXML-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchXML-dummy.m"; sourceTree = "<group>"; };
+		35D623301876ED5D00DAA919 /* Pods-TouchXML-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchXML-prefix.pch"; sourceTree = "<group>"; };
+		35D623311876ED5D00DAA919 /* Pods-TouchXML-Private.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-TouchXML-Private.xcconfig"; sourceTree = "<group>"; };
+		35D623321876ED5D00DAA919 /* Pods-TouchXML.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-TouchXML.xcconfig"; sourceTree = "<group>"; };
+		35D623331876ED5D00DAA919 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		35D623341876ED5D00DAA919 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		35D623381876ED5D00DAA919 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		35D6233B1876ED5D00DAA919 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		35D6233C1876ED5D00DAA919 /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		35D6233D1876ED5D00DAA919 /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		35D6233E1876ED5D00DAA919 /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		35D6233F1876ED5D00DAA919 /* CXHTMLDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXHTMLDocument.h; sourceTree = "<group>"; };
+		35D623401876ED5D00DAA919 /* CXHTMLDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXHTMLDocument.m; sourceTree = "<group>"; };
+		35D623411876ED5D00DAA919 /* CXMLDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		35D623421876ED5D00DAA919 /* CXMLDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		35D623431876ED5D00DAA919 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		35D623441876ED5D00DAA919 /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		35D623451876ED5D00DAA919 /* CXMLElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		35D623461876ED5D00DAA919 /* CXMLElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		35D623471876ED5D00DAA919 /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLElement_CreationExtensions.h; sourceTree = "<group>"; };
+		35D623481876ED5D00DAA919 /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_CreationExtensions.m; sourceTree = "<group>"; };
+		35D623491876ED5D00DAA919 /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		35D6234A1876ED5D00DAA919 /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_ElementTreeExtensions.m; sourceTree = "<group>"; };
+		35D6234B1876ED5D00DAA919 /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLNamespaceNode.h; sourceTree = "<group>"; };
+		35D6234C1876ED5D00DAA919 /* CXMLNamespaceNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMLNamespaceNode.m; sourceTree = "<group>"; };
+		35D6234D1876ED5D00DAA919 /* CXMLNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		35D6234E1876ED5D00DAA919 /* CXMLNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		35D6234F1876ED5D00DAA919 /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		35D623501876ED5D00DAA919 /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		35D623511876ED5D00DAA919 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		35D623521876ED5D00DAA919 /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		35D623541876ED5D00DAA919 /* CTidy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
+		35D623551876ED5D00DAA919 /* CTidy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
+		35D623561876ED5D00DAA919 /* TouchXML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		35D62363187779DB00DAA919 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		35D62364187779DB00DAA919 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		35D6237218783E0C00DAA919 /* AllegroSearchMenubar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AllegroSearchMenubar-Info.plist"; path = "AllegroSearchMenubar/AllegroSearchMenubar-Info.plist"; sourceTree = "<group>"; };
+		77C2499B47534E9A9374AC53 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		88602B3BF9D3492F84DF8E74 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4F7C0413C30F9F00825C6E /* AllegroSearchMenubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllegroSearchMenubar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4F7C0813C30F9F00825C6E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DD4F7C0B13C30F9F00825C6E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DD4F7C0C13C30F9F00825C6E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DD4F7C0D13C30F9F00825C6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD4F7C1413C30F9F00825C6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD4F7C1613C30F9F00825C6E /* AllegroSearchMenubar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AllegroSearchMenubar-Prefix.pch"; sourceTree = "<group>"; };
+		DD4F7C1A13C30F9F00825C6E /* ApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
+		DD4F7C1B13C30F9F00825C6E /* ApplicationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
+		DD4F7C1E13C30F9F00825C6E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DD4F7C3613C317A500825C6E /* MenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenubarController.h; sourceTree = "<group>"; };
+		DD4F7C3713C317A500825C6E /* MenubarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenubarController.m; sourceTree = "<group>"; };
+		DD4F7C3A13C3180800825C6E /* StatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItemView.h; sourceTree = "<group>"; };
+		DD4F7C3B13C3180800825C6E /* StatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItemView.m; sourceTree = "<group>"; };
+		DD4F7C3D13C318D600825C6E /* PanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelController.h; sourceTree = "<group>"; };
+		DD4F7C3E13C318D600825C6E /* PanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelController.m; sourceTree = "<group>"; };
+		DD4F7C4013C31B4A00825C6E /* Panel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Panel.xib; sourceTree = "<group>"; };
+		DD4F7C4213C31BD200825C6E /* Panel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Panel.h; sourceTree = "<group>"; };
+		DD4F7C4313C31BD200825C6E /* Panel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Panel.m; sourceTree = "<group>"; };
+		DD4F7C4513C3208500825C6E /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		DD4F7C4613C3208500825C6E /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+		DD4F7C4913C322FA00825C6E /* Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Status.png; sourceTree = "<group>"; };
+		DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusHighlighted.png; sourceTree = "<group>"; };
+		DDF4EFAB16C80A510044D141 /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Status@2x.png"; sourceTree = "<group>"; };
+		DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StatusHighlighted@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD4F7C0113C30F9F00825C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D623611876EDC800DAA919 /* libPods-TouchXML.a in Frameworks */,
+				DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35D623081876ED5D00DAA919 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35D623091876ED5D00DAA919 /* BuildHeaders */,
+				35D623191876ED5D00DAA919 /* Headers */,
+				35D623291876ED5D00DAA919 /* Manifest.lock */,
+				35D6232A1876ED5D00DAA919 /* Pods-acknowledgements.markdown */,
+				35D6232B1876ED5D00DAA919 /* Pods-acknowledgements.plist */,
+				35D6232C1876ED5D00DAA919 /* Pods-dummy.m */,
+				35D6232D1876ED5D00DAA919 /* Pods-environment.h */,
+				35D6232E1876ED5D00DAA919 /* Pods-resources.sh */,
+				35D6232F1876ED5D00DAA919 /* Pods-TouchXML-dummy.m */,
+				35D623301876ED5D00DAA919 /* Pods-TouchXML-prefix.pch */,
+				35D623311876ED5D00DAA919 /* Pods-TouchXML-Private.xcconfig */,
+				35D623321876ED5D00DAA919 /* Pods-TouchXML.xcconfig */,
+				35D623331876ED5D00DAA919 /* Pods.xcconfig */,
+				35D623341876ED5D00DAA919 /* Pods.xcodeproj */,
+				35D623371876ED5D00DAA919 /* TouchXML */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		35D623091876ED5D00DAA919 /* BuildHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				35D6230A1876ED5D00DAA919 /* TouchXML */,
+			);
+			path = BuildHeaders;
+			sourceTree = "<group>";
+		};
+		35D6230A1876ED5D00DAA919 /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				35D6230B1876ED5D00DAA919 /* CTidy.h */,
+				35D6230C1876ED5D00DAA919 /* CXHTMLDocument.h */,
+				35D6230D1876ED5D00DAA919 /* CXMLDocument.h */,
+				35D6230E1876ED5D00DAA919 /* CXMLDocument_CreationExtensions.h */,
+				35D6230F1876ED5D00DAA919 /* CXMLDocument_PrivateExtensions.h */,
+				35D623101876ED5D00DAA919 /* CXMLElement.h */,
+				35D623111876ED5D00DAA919 /* CXMLElement_CreationExtensions.h */,
+				35D623121876ED5D00DAA919 /* CXMLElement_ElementTreeExtensions.h */,
+				35D623131876ED5D00DAA919 /* CXMLNamespaceNode.h */,
+				35D623141876ED5D00DAA919 /* CXMLNode.h */,
+				35D623151876ED5D00DAA919 /* CXMLNode_CreationExtensions.h */,
+				35D623161876ED5D00DAA919 /* CXMLNode_PrivateExtensions.h */,
+				35D623171876ED5D00DAA919 /* CXMLNode_XPathExtensions.h */,
+				35D623181876ED5D00DAA919 /* TouchXML.h */,
+			);
+			path = TouchXML;
+			sourceTree = "<group>";
+		};
+		35D623191876ED5D00DAA919 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				35D6231A1876ED5D00DAA919 /* TouchXML */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		35D6231A1876ED5D00DAA919 /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				35D6231B1876ED5D00DAA919 /* CTidy.h */,
+				35D6231C1876ED5D00DAA919 /* CXHTMLDocument.h */,
+				35D6231D1876ED5D00DAA919 /* CXMLDocument.h */,
+				35D6231E1876ED5D00DAA919 /* CXMLDocument_CreationExtensions.h */,
+				35D6231F1876ED5D00DAA919 /* CXMLDocument_PrivateExtensions.h */,
+				35D623201876ED5D00DAA919 /* CXMLElement.h */,
+				35D623211876ED5D00DAA919 /* CXMLElement_CreationExtensions.h */,
+				35D623221876ED5D00DAA919 /* CXMLElement_ElementTreeExtensions.h */,
+				35D623231876ED5D00DAA919 /* CXMLNamespaceNode.h */,
+				35D623241876ED5D00DAA919 /* CXMLNode.h */,
+				35D623251876ED5D00DAA919 /* CXMLNode_CreationExtensions.h */,
+				35D623261876ED5D00DAA919 /* CXMLNode_PrivateExtensions.h */,
+				35D623271876ED5D00DAA919 /* CXMLNode_XPathExtensions.h */,
+				35D623281876ED5D00DAA919 /* TouchXML.h */,
+			);
+			path = TouchXML;
+			sourceTree = "<group>";
+		};
+		35D623351876ED5D00DAA919 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35D6235A1876ED5D00DAA919 /* libPods.a */,
+				35D6235C1876ED5D00DAA919 /* libPods-TouchXML.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35D623371876ED5D00DAA919 /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				35D623381876ED5D00DAA919 /* README.markdown */,
+				35D623391876ED5D00DAA919 /* Source */,
+			);
+			path = TouchXML;
+			sourceTree = "<group>";
+		};
+		35D623391876ED5D00DAA919 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				35D6233A1876ED5D00DAA919 /* Creation */,
+				35D6233F1876ED5D00DAA919 /* CXHTMLDocument.h */,
+				35D623401876ED5D00DAA919 /* CXHTMLDocument.m */,
+				35D623411876ED5D00DAA919 /* CXMLDocument.h */,
+				35D623421876ED5D00DAA919 /* CXMLDocument.m */,
+				35D623431876ED5D00DAA919 /* CXMLDocument_PrivateExtensions.h */,
+				35D623441876ED5D00DAA919 /* CXMLDocument_PrivateExtensions.m */,
+				35D623451876ED5D00DAA919 /* CXMLElement.h */,
+				35D623461876ED5D00DAA919 /* CXMLElement.m */,
+				35D623471876ED5D00DAA919 /* CXMLElement_CreationExtensions.h */,
+				35D623481876ED5D00DAA919 /* CXMLElement_CreationExtensions.m */,
+				35D623491876ED5D00DAA919 /* CXMLElement_ElementTreeExtensions.h */,
+				35D6234A1876ED5D00DAA919 /* CXMLElement_ElementTreeExtensions.m */,
+				35D6234B1876ED5D00DAA919 /* CXMLNamespaceNode.h */,
+				35D6234C1876ED5D00DAA919 /* CXMLNamespaceNode.m */,
+				35D6234D1876ED5D00DAA919 /* CXMLNode.h */,
+				35D6234E1876ED5D00DAA919 /* CXMLNode.m */,
+				35D6234F1876ED5D00DAA919 /* CXMLNode_PrivateExtensions.h */,
+				35D623501876ED5D00DAA919 /* CXMLNode_PrivateExtensions.m */,
+				35D623511876ED5D00DAA919 /* CXMLNode_XPathExtensions.h */,
+				35D623521876ED5D00DAA919 /* CXMLNode_XPathExtensions.m */,
+				35D623531876ED5D00DAA919 /* Tidy */,
+				35D623561876ED5D00DAA919 /* TouchXML.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		35D6233A1876ED5D00DAA919 /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				35D6233B1876ED5D00DAA919 /* CXMLDocument_CreationExtensions.h */,
+				35D6233C1876ED5D00DAA919 /* CXMLDocument_CreationExtensions.m */,
+				35D6233D1876ED5D00DAA919 /* CXMLNode_CreationExtensions.h */,
+				35D6233E1876ED5D00DAA919 /* CXMLNode_CreationExtensions.m */,
+			);
+			path = Creation;
+			sourceTree = "<group>";
+		};
+		35D623531876ED5D00DAA919 /* Tidy */ = {
+			isa = PBXGroup;
+			children = (
+				35D623541876ED5D00DAA919 /* CTidy.h */,
+				35D623551876ED5D00DAA919 /* CTidy.m */,
+			);
+			path = Tidy;
+			sourceTree = "<group>";
+		};
+		35D623621877785100DAA919 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35D622FF1876499D00DAA919 /* AllegroApi.h */,
+				35D623001876499D00DAA919 /* AllegroApi.m */,
+				35D62363187779DB00DAA919 /* Product.h */,
+				35D62364187779DB00DAA919 /* Product.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DD4F7BF913C30F9F00825C6E = {
+			isa = PBXGroup;
+			children = (
+				DD4F7C0E13C30F9F00825C6E /* Sources */,
+				DD4F7C2813C3123E00825C6E /* User Interface */,
+				DD4F7C0713C30F9F00825C6E /* Frameworks */,
+				DD4F7C0513C30F9F00825C6E /* Products */,
+				35D6237218783E0C00DAA919 /* AllegroSearchMenubar-Info.plist */,
+				77C2499B47534E9A9374AC53 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		DD4F7C0513C30F9F00825C6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F7C0413C30F9F00825C6E /* AllegroSearchMenubar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD4F7C0713C30F9F00825C6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35D623081876ED5D00DAA919 /* Pods */,
+				DD4F7C0B13C30F9F00825C6E /* AppKit.framework */,
+				DD4F7C0C13C30F9F00825C6E /* CoreData.framework */,
+				DD4F7C0D13C30F9F00825C6E /* Foundation.framework */,
+				DD4F7C0813C30F9F00825C6E /* Cocoa.framework */,
+				88602B3BF9D3492F84DF8E74 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD4F7C0E13C30F9F00825C6E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				35D623621877785100DAA919 /* Model */,
+				DD4F7C2613C311DF00825C6E /* Controllers */,
+				DD4F7C3913C317EC00825C6E /* Views */,
+				DD4F7C0F13C30F9F00825C6E /* Supporting Files */,
+			);
+			name = Sources;
+			path = AllegroSearchMenubar;
+			sourceTree = "<group>";
+		};
+		DD4F7C0F13C30F9F00825C6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F7C1613C30F9F00825C6E /* AllegroSearchMenubar-Prefix.pch */,
+				DD4F7C1413C30F9F00825C6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD4F7C2613C311DF00825C6E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F7C1A13C30F9F00825C6E /* ApplicationDelegate.h */,
+				DD4F7C1B13C30F9F00825C6E /* ApplicationDelegate.m */,
+				DD4F7C3613C317A500825C6E /* MenubarController.h */,
+				DD4F7C3713C317A500825C6E /* MenubarController.m */,
+				DD4F7C3D13C318D600825C6E /* PanelController.h */,
+				DD4F7C3E13C318D600825C6E /* PanelController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DD4F7C2813C3123E00825C6E /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F7C4813C322D800825C6E /* Graphics */,
+				DD4F7C2913C3124300825C6E /* XIBs */,
+			);
+			name = "User Interface";
+			path = AllegroSearchMenubar;
+			sourceTree = "<group>";
+		};
+		DD4F7C2913C3124300825C6E /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F7C1D13C30F9F00825C6E /* MainMenu.xib */,
+				DD4F7C4013C31B4A00825C6E /* Panel.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		DD4F7C3913C317EC00825C6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F7C4213C31BD200825C6E /* Panel.h */,
+				DD4F7C4313C31BD200825C6E /* Panel.m */,
+				DD4F7C3A13C3180800825C6E /* StatusItemView.h */,
+				DD4F7C3B13C3180800825C6E /* StatusItemView.m */,
+				DD4F7C4513C3208500825C6E /* BackgroundView.h */,
+				DD4F7C4613C3208500825C6E /* BackgroundView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DD4F7C4813C322D800825C6E /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F7C4913C322FA00825C6E /* Status.png */,
+				DDF4EFAB16C80A510044D141 /* Status@2x.png */,
+				DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */,
+				DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD4F7C0313C30F9F00825C6E /* AllegroSearchMenubar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4F7C2213C30F9F00825C6E /* Build configuration list for PBXNativeTarget "AllegroSearchMenubar" */;
+			buildPhases = (
+				4FB90B933EC74314AC38A290 /* Check Pods Manifest.lock */,
+				DD4F7C0013C30F9F00825C6E /* Sources */,
+				DD4F7C0113C30F9F00825C6E /* Frameworks */,
+				DD4F7C0213C30F9F00825C6E /* Resources */,
+				ADC693A90315426D8F7BD9C5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AllegroSearchMenubar;
+			productName = Popup;
+			productReference = DD4F7C0413C30F9F00825C6E /* AllegroSearchMenubar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD4F7BFB13C30F9F00825C6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = DD4F7BFE13C30F9F00825C6E /* Build configuration list for PBXProject "AllegroSearchMenubar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD4F7BF913C30F9F00825C6E;
+			productRefGroup = DD4F7C0513C30F9F00825C6E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 35D623351876ED5D00DAA919 /* Products */;
+					ProjectRef = 35D623341876ED5D00DAA919 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DD4F7C0313C30F9F00825C6E /* AllegroSearchMenubar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		35D6235A1876ED5D00DAA919 /* libPods.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPods.a;
+			remoteRef = 35D623591876ED5D00DAA919 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		35D6235C1876ED5D00DAA919 /* libPods-TouchXML.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-TouchXML.a";
+			remoteRef = 35D6235B1876ED5D00DAA919 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD4F7C0213C30F9F00825C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4F7C1F13C30F9F00825C6E /* MainMenu.xib in Resources */,
+				DD4F7C4113C31B4A00825C6E /* Panel.xib in Resources */,
+				DD4F7C4B13C322FA00825C6E /* Status.png in Resources */,
+				DD4F7C4C13C322FA00825C6E /* StatusHighlighted.png in Resources */,
+				DDF4EFAC16C80A510044D141 /* Status@2x.png in Resources */,
+				35D6237318783E0C00DAA919 /* AllegroSearchMenubar-Info.plist in Resources */,
+				DDF4EFAE16C80AD30044D141 /* StatusHighlighted@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FB90B933EC74314AC38A290 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADC693A90315426D8F7BD9C5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD4F7C0013C30F9F00825C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4F7C1513C30F9F00825C6E /* main.m in Sources */,
+				DD4F7C1C13C30F9F00825C6E /* ApplicationDelegate.m in Sources */,
+				DD4F7C3813C317A500825C6E /* MenubarController.m in Sources */,
+				35D62365187779DB00DAA919 /* Product.m in Sources */,
+				DD4F7C3C13C3180800825C6E /* StatusItemView.m in Sources */,
+				DD4F7C3F13C318D600825C6E /* PanelController.m in Sources */,
+				DD4F7C4413C31BD200825C6E /* Panel.m in Sources */,
+				DD4F7C4713C3208500825C6E /* BackgroundView.m in Sources */,
+				35D623011876499D00DAA919 /* AllegroApi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD4F7C1D13C30F9F00825C6E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD4F7C1E13C30F9F00825C6E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD4F7C2013C30F9F00825C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DD4F7C2113C30F9F00825C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DD4F7C2313C30F9F00825C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77C2499B47534E9A9374AC53 /* Pods.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AllegroSearchMenubar/AllegroSearchMenubar-Prefix.pch";
+				INFOPLIST_FILE = "AllegroSearchMenubar/AllegroSearchMenubar-Info.plist";
+				PRODUCT_NAME = AllegroSearchMenubar;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD4F7C2413C30F9F00825C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77C2499B47534E9A9374AC53 /* Pods.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AllegroSearchMenubar/AllegroSearchMenubar-Prefix.pch";
+				INFOPLIST_FILE = "AllegroSearchMenubar/AllegroSearchMenubar-Info.plist";
+				PRODUCT_NAME = AllegroSearchMenubar;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD4F7BFE13C30F9F00825C6E /* Build configuration list for PBXProject "AllegroSearchMenubar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4F7C2013C30F9F00825C6E /* Debug */,
+				DD4F7C2113C30F9F00825C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4F7C2213C30F9F00825C6E /* Build configuration list for PBXNativeTarget "AllegroSearchMenubar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4F7C2313C30F9F00825C6E /* Debug */,
+				DD4F7C2413C30F9F00825C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD4F7BFB13C30F9F00825C6E /* Project object */;
+}

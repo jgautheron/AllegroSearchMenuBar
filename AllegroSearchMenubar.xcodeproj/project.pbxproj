@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		353B40CC1879A661008EB21B /* Allegro.png in Resources */ = {isa = PBXBuildFile; fileRef = 353B40C81879A661008EB21B /* Allegro.png */; };
+		353B40CD1879A661008EB21B /* Allegro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 353B40C91879A661008EB21B /* Allegro@2x.png */; };
+		353B40CE1879A661008EB21B /* AllegroHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 353B40CA1879A661008EB21B /* AllegroHighlighted.png */; };
+		353B40CF1879A661008EB21B /* AllegroHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 353B40CB1879A661008EB21B /* AllegroHighlighted@2x.png */; };
 		35D623011876499D00DAA919 /* AllegroApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D623001876499D00DAA919 /* AllegroApi.m */; };
 		35D623611876EDC800DAA919 /* libPods-TouchXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D6235C1876ED5D00DAA919 /* libPods-TouchXML.a */; };
 		35D62365187779DB00DAA919 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D62364187779DB00DAA919 /* Product.m */; };
@@ -21,10 +25,6 @@
 		DD4F7C4113C31B4A00825C6E /* Panel.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C4013C31B4A00825C6E /* Panel.xib */; };
 		DD4F7C4413C31BD200825C6E /* Panel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C4313C31BD200825C6E /* Panel.m */; };
 		DD4F7C4713C3208500825C6E /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C4613C3208500825C6E /* BackgroundView.m */; };
-		DD4F7C4B13C322FA00825C6E /* Status.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C4913C322FA00825C6E /* Status.png */; };
-		DD4F7C4C13C322FA00825C6E /* StatusHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */; };
-		DDF4EFAC16C80A510044D141 /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF4EFAB16C80A510044D141 /* Status@2x.png */; };
-		DDF4EFAE16C80AD30044D141 /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		353B40C81879A661008EB21B /* Allegro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Allegro.png; sourceTree = "<group>"; };
+		353B40C91879A661008EB21B /* Allegro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Allegro@2x.png"; sourceTree = "<group>"; };
+		353B40CA1879A661008EB21B /* AllegroHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AllegroHighlighted.png; sourceTree = "<group>"; };
+		353B40CB1879A661008EB21B /* AllegroHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AllegroHighlighted@2x.png"; sourceTree = "<group>"; };
 		35D622FF1876499D00DAA919 /* AllegroApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllegroApi.h; sourceTree = "<group>"; };
 		35D623001876499D00DAA919 /* AllegroApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllegroApi.m; sourceTree = "<group>"; };
 		35D6230B1876ED5D00DAA919 /* CTidy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
@@ -141,10 +145,6 @@
 		DD4F7C4313C31BD200825C6E /* Panel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Panel.m; sourceTree = "<group>"; };
 		DD4F7C4513C3208500825C6E /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
 		DD4F7C4613C3208500825C6E /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
-		DD4F7C4913C322FA00825C6E /* Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Status.png; sourceTree = "<group>"; };
-		DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusHighlighted.png; sourceTree = "<group>"; };
-		DDF4EFAB16C80A510044D141 /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Status@2x.png"; sourceTree = "<group>"; };
-		DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StatusHighlighted@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -421,10 +421,10 @@
 		DD4F7C4813C322D800825C6E /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
-				DD4F7C4913C322FA00825C6E /* Status.png */,
-				DDF4EFAB16C80A510044D141 /* Status@2x.png */,
-				DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */,
-				DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */,
+				353B40C81879A661008EB21B /* Allegro.png */,
+				353B40C91879A661008EB21B /* Allegro@2x.png */,
+				353B40CA1879A661008EB21B /* AllegroHighlighted.png */,
+				353B40CB1879A661008EB21B /* AllegroHighlighted@2x.png */,
 			);
 			name = Graphics;
 			sourceTree = "<group>";
@@ -506,11 +506,11 @@
 			files = (
 				DD4F7C1F13C30F9F00825C6E /* MainMenu.xib in Resources */,
 				DD4F7C4113C31B4A00825C6E /* Panel.xib in Resources */,
-				DD4F7C4B13C322FA00825C6E /* Status.png in Resources */,
-				DD4F7C4C13C322FA00825C6E /* StatusHighlighted.png in Resources */,
-				DDF4EFAC16C80A510044D141 /* Status@2x.png in Resources */,
+				353B40CD1879A661008EB21B /* Allegro@2x.png in Resources */,
+				353B40CC1879A661008EB21B /* Allegro.png in Resources */,
 				35D6237318783E0C00DAA919 /* AllegroSearchMenubar-Info.plist in Resources */,
-				DDF4EFAE16C80AD30044D141 /* StatusHighlighted@2x.png in Resources */,
+				353B40CF1879A661008EB21B /* AllegroHighlighted@2x.png in Resources */,
+				353B40CE1879A661008EB21B /* AllegroHighlighted.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

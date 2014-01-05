@@ -67,7 +67,7 @@ static NSString *const eventProductsLoaded = @"productsLoaded";
     // Follow search string
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(runSearch) name:NSControlTextDidChangeNotification object:self.searchField];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(notify:) name:eventProductsLoaded object: [AllegroApi sharedManager]];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(responseProducts:) name:eventProductsLoaded object: [AllegroApi sharedManager]];
 }
 
 #pragma mark - Public accessors
@@ -350,31 +350,30 @@ static NSString *const eventProductsLoaded = @"productsLoaded";
     
 }
 
-- (void)notify:(NSNotification *)notification {
+- (void)responseProducts:(NSNotification *)notification {
 	id notificationSender = [notification object];
     
     NSMutableArray *products = [notificationSender getProducts];
     
-    NSLog(@"%@", [[products objectAtIndex:1] objectForKey:@"ns1:sItName"]);
     [self setListAnimation:YES];
+    
     self.products = products;
     
     [_productGrid reloadData];
 }
 
 - (NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row {
-    NSLog(tableColumn.identifier);
-    
+
     // Get a new ViewCell
     NSTableCellView *cellView = [tableView makeViewWithIdentifier:tableColumn.identifier owner:self];
     
+    NSMutableDictionary *product = [self.products objectAtIndex:row];
+    
     // Since this is a single-column table view, this would not be necessary.
     // But it's a good practice to do it in order by remember it when a table is multicolumn.
-    if ([tableColumn.identifier isEqualToString:@"ProductColumn"])
-    {
-        Product *product = [self.products objectAtIndex:row];
-        cellView.imageView.image = product.thumbImage;
-        cellView.textField.stringValue = product.title;
+    if ([tableColumn.identifier isEqualToString:@"ProductColumn"]) {
+        cellView.imageView.image = [product objectForKey:@"ns1:sItThumbUrl"];
+        cellView.textField.stringValue = [product objectForKey:@"ns1:sItName"];
         return cellView;
     }
     return cellView;

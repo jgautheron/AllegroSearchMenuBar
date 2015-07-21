@@ -14,7 +14,6 @@
 		35D623011876499D00DAA919 /* AllegroApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D623001876499D00DAA919 /* AllegroApi.m */; };
 		35D623611876EDC800DAA919 /* libPods-TouchXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D6235C1876ED5D00DAA919 /* libPods-TouchXML.a */; };
 		35D62365187779DB00DAA919 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D62364187779DB00DAA919 /* Product.m */; };
-		35D6237318783E0C00DAA919 /* AllegroSearchMenubar-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35D6237218783E0C00DAA919 /* AllegroSearchMenubar-Info.plist */; };
 		DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4F7C0813C30F9F00825C6E /* Cocoa.framework */; };
 		DD4F7C1513C30F9F00825C6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1413C30F9F00825C6E /* main.m */; };
 		DD4F7C1C13C30F9F00825C6E /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1B13C30F9F00825C6E /* ApplicationDelegate.m */; };
@@ -457,7 +456,7 @@
 		DD4F7BFB13C30F9F00825C6E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0640;
 			};
 			buildConfigurationList = DD4F7BFE13C30F9F00825C6E /* Build configuration list for PBXProject "AllegroSearchMenubar" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -508,7 +507,6 @@
 				DD4F7C4113C31B4A00825C6E /* Panel.xib in Resources */,
 				353B40CD1879A661008EB21B /* Allegro@2x.png in Resources */,
 				353B40CC1879A661008EB21B /* Allegro.png in Resources */,
-				35D6237318783E0C00DAA919 /* AllegroSearchMenubar-Info.plist in Resources */,
 				353B40CF1879A661008EB21B /* AllegroHighlighted@2x.png in Resources */,
 				353B40CE1879A661008EB21B /* AllegroHighlighted.png in Resources */,
 			);
@@ -589,11 +587,14 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -623,11 +624,14 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
